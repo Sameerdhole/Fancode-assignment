@@ -1,0 +1,19 @@
+{
+  "name": "fancode-assignment",
+  "version": "1.0.0",
+  "description": "Package json for fancode assignment pactum tests",
+  "main": "index.js",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.0.1",
+    "chai": "^5.1.1",
+    "pactum": "^3.7.1",
+    "prettier": "^3.3.3"
+  },
+  "scripts": {
+    "test": "cucumber-js",
+    "prettify": "npx prettier --write '*.js' '**/*.js'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
